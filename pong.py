@@ -26,8 +26,6 @@ class Ball:
             self.velocityy = -(self.velocityy)
 
 
-
-
         topx, topy, bottomx, bottomy = self.cv.coords(self.ball)
         # if ball intersecting paddle , bounce
 
@@ -129,9 +127,3 @@ class Game:
 game = Game(root)
 game.start()
 root.mainloop()
-
-
-
-
-
-# https://stackoverflow.com/questions/25430786/moving-balls-in-tkinter-canvas
